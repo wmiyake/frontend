@@ -1,0 +1,30 @@
+.delete-list {
+  font-family: Arial, sans-serif;
+}
+
+.delete-list h2 {
+  margin-bottom: 10px;
+}
+
+.delete-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.delete-list li {
+  margin-bottom: 5px;
+}
+
+.delete-list .delete-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-list .delete-button:hover {
+  background-color: #ff7875;
+}
